@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545349CD1556E26B006DB340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545349CC1556E26B006DB340 /* UIKit.framework */; };
+		545349CF1556E26B006DB340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545349CE1556E26B006DB340 /* Foundation.framework */; };
+		545349D11556E26B006DB340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545349D01556E26B006DB340 /* CoreGraphics.framework */; };
+		545349D31556E26B006DB340 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545349D21556E26B006DB340 /* CoreData.framework */; };
+		545349D91556E26B006DB340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 545349D71556E26B006DB340 /* InfoPlist.strings */; };
+		545349DB1556E26B006DB340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545349DA1556E26B006DB340 /* main.m */; };
+		545349DF1556E26B006DB340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 545349DE1556E26B006DB340 /* AppDelegate.m */; };
+		545349E21556E26B006DB340 /* PartyJackpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 545349E01556E26B006DB340 /* PartyJackpot.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		545349C81556E26B006DB340 /* PartyJackpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyJackpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		545349CC1556E26B006DB340 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		545349CE1556E26B006DB340 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		545349D01556E26B006DB340 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		545349D21556E26B006DB340 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		545349D61556E26B006DB340 /* PartyJackpot-Info.plist */ = {isa = PBXFileReference; path = "PartyJackpot-Info.plist"; sourceTree = "<group>"; };
+		545349D81556E26B006DB340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		545349DA1556E26B006DB340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		545349DC1556E26B006DB340 /* PartyJackpot-Prefix.pch */ = {isa = PBXFileReference; path = "PartyJackpot-Prefix.pch"; sourceTree = "<group>"; };
+		545349DD1556E26B006DB340 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		545349DE1556E26B006DB340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		545349E11556E26B006DB340 /* PartyJackpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartyJackpot.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545349C51556E26B006DB340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545349CD1556E26B006DB340 /* UIKit.framework in Frameworks */,
+				545349CF1556E26B006DB340 /* Foundation.framework in Frameworks */,
+				545349D11556E26B006DB340 /* CoreGraphics.framework in Frameworks */,
+				545349D31556E26B006DB340 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545349BD1556E26B006DB340 = {
+			isa = PBXGroup;
+			children = (
+				545349D41556E26B006DB340 /* PartyJackpot */,
+				545349CB1556E26B006DB340 /* Frameworks */,
+				545349C91556E26B006DB340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		545349C91556E26B006DB340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545349C81556E26B006DB340 /* PartyJackpot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545349CB1556E26B006DB340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545349CC1556E26B006DB340 /* UIKit.framework */,
+				545349CE1556E26B006DB340 /* Foundation.framework */,
+				545349D01556E26B006DB340 /* CoreGraphics.framework */,
+				545349D21556E26B006DB340 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		545349D41556E26B006DB340 /* PartyJackpot */ = {
+			isa = PBXGroup;
+			children = (
+				545349DD1556E26B006DB340 /* AppDelegate.h */,
+				545349DE1556E26B006DB340 /* AppDelegate.m */,
+				545349E01556E26B006DB340 /* PartyJackpot.xcdatamodeld */,
+				545349D51556E26B006DB340 /* Supporting Files */,
+			);
+			path = PartyJackpot;
+			sourceTree = "<group>";
+		};
+		545349D51556E26B006DB340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				545349D61556E26B006DB340 /* PartyJackpot-Info.plist */,
+				545349D71556E26B006DB340 /* InfoPlist.strings */,
+				545349DA1556E26B006DB340 /* main.m */,
+				545349DC1556E26B006DB340 /* PartyJackpot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545349C71556E26B006DB340 /* PartyJackpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545349E51556E26B006DB340 /* Build configuration list for PBXNativeTarget "PartyJackpot" */;
+			buildPhases = (
+				545349C41556E26B006DB340 /* Sources */,
+				545349C51556E26B006DB340 /* Frameworks */,
+				545349C61556E26B006DB340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PartyJackpot;
+			productName = PartyJackpot;
+			productReference = 545349C81556E26B006DB340 /* PartyJackpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545349BF1556E26B006DB340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 545349C21556E26B006DB340 /* Build configuration list for PBXProject "PartyJackpot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 545349BD1556E26B006DB340;
+			productRefGroup = 545349C91556E26B006DB340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545349C71556E26B006DB340 /* PartyJackpot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545349C61556E26B006DB340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545349D91556E26B006DB340 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		545349C41556E26B006DB340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545349DB1556E26B006DB340 /* main.m in Sources */,
+				545349DF1556E26B006DB340 /* AppDelegate.m in Sources */,
+				545349E21556E26B006DB340 /* PartyJackpot.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		545349D71556E26B006DB340 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545349D81556E26B006DB340 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		545349E31556E26B006DB340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		545349E41556E26B006DB340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545349E61556E26B006DB340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PartyJackpot/PartyJackpot-Prefix.pch";
+				INFOPLIST_FILE = "PartyJackpot/PartyJackpot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		545349E71556E26B006DB340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PartyJackpot/PartyJackpot-Prefix.pch";
+				INFOPLIST_FILE = "PartyJackpot/PartyJackpot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		545349C21556E26B006DB340 /* Build configuration list for PBXProject "PartyJackpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545349E31556E26B006DB340 /* Debug */,
+				545349E41556E26B006DB340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545349E51556E26B006DB340 /* Build configuration list for PBXNativeTarget "PartyJackpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545349E61556E26B006DB340 /* Debug */,
+				545349E71556E26B006DB340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		545349E01556E26B006DB340 /* PartyJackpot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				545349E11556E26B006DB340 /* PartyJackpot.xcdatamodel */,
+			);
+			currentVersion = 545349E11556E26B006DB340 /* PartyJackpot.xcdatamodel */;
+			path = PartyJackpot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 545349BF1556E26B006DB340 /* Project object */;
+}
