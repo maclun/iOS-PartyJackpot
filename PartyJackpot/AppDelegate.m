@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -14,13 +15,25 @@
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
+@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [application setStatusBarHidden:YES withAnimation:NO];
+    
+    [application setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    MainViewController *mainViewController = [[MainViewController alloc] init];
+    mainViewController.context = [self managedObjectContext];
+    
+    _navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    _navigationController.navigationBar.tintColor = [UIColor blackColor];
+    [self.window addSubview:[_navigationController view]];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
