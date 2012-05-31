@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B776A39156E14E300701B64 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B776A34156E14E300701B64 /* UIImage+Alpha.m */; };
+		3B776A3A156E14E300701B64 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B776A36156E14E300701B64 /* UIImage+Resize.m */; };
+		3B776A3B156E14E300701B64 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B776A38156E14E300701B64 /* UIImage+RoundedCorner.m */; };
+		54155208155854310064971C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54155207155854300064971C /* MainViewController.m */; };
+		5420B1B5156ED280003B0683 /* WinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5420B1B4156ED280003B0683 /* WinnerViewController.m */; };
+		5420B1B91570DC91003B0683 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5420B1B81570DC91003B0683 /* Person.m */; };
+		5420B1BF15715678003B0683 /* mouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5420B1BE15715678003B0683 /* mouse.jpg */; };
+		54454AA9156920090073F719 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 54454AA8156920090073F719 /* People.m */; };
+		5452B4661566A75800C8F370 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5452B4651566A75800C8F370 /* PersonViewController.m */; };
 		545349CD1556E26B006DB340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545349CC1556E26B006DB340 /* UIKit.framework */; };
 		545349CF1556E26B006DB340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545349CE1556E26B006DB340 /* Foundation.framework */; };
 		545349D11556E26B006DB340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545349D01556E26B006DB340 /* CoreGraphics.framework */; };
@@ -15,21 +24,45 @@
 		545349DB1556E26B006DB340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545349DA1556E26B006DB340 /* main.m */; };
 		545349DF1556E26B006DB340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 545349DE1556E26B006DB340 /* AppDelegate.m */; };
 		545349E21556E26B006DB340 /* PartyJackpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 545349E01556E26B006DB340 /* PartyJackpot.xcdatamodeld */; };
+		54534A7B15570879006DB340 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54534A7A15570879006DB340 /* MobileCoreServices.framework */; };
+		54534A8A15571BE2006DB340 /* Person+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54534A8915571BE2006DB340 /* Person+Helper.m */; };
+		54F893E5156D90DF004EF4E9 /* jackpot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54F893E3156D90DF004EF4E9 /* jackpot.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B776A33156E14E300701B64 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		3B776A34156E14E300701B64 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		3B776A35156E14E300701B64 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		3B776A36156E14E300701B64 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		3B776A37156E14E300701B64 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		3B776A38156E14E300701B64 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		54155206155854300064971C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		54155207155854300064971C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		5420B1B3156ED280003B0683 /* WinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinnerViewController.h; sourceTree = "<group>"; };
+		5420B1B4156ED280003B0683 /* WinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinnerViewController.m; sourceTree = "<group>"; };
+		5420B1B71570DC91003B0683 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5420B1B81570DC91003B0683 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5420B1BE15715678003B0683 /* mouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mouse.jpg; sourceTree = "<group>"; };
+		54454AA7156920090073F719 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		54454AA8156920090073F719 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		5452B4641566A75800C8F370 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonViewController.h; path = ../PersonViewController.h; sourceTree = "<group>"; };
+		5452B4651566A75800C8F370 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonViewController.m; path = ../PersonViewController.m; sourceTree = "<group>"; };
 		545349C81556E26B006DB340 /* PartyJackpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyJackpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545349CC1556E26B006DB340 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		545349CE1556E26B006DB340 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		545349D01556E26B006DB340 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		545349D21556E26B006DB340 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		545349D61556E26B006DB340 /* PartyJackpot-Info.plist */ = {isa = PBXFileReference; path = "PartyJackpot-Info.plist"; sourceTree = "<group>"; };
+		545349D61556E26B006DB340 /* PartyJackpot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyJackpot-Info.plist"; sourceTree = "<group>"; };
 		545349D81556E26B006DB340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		545349DA1556E26B006DB340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		545349DC1556E26B006DB340 /* PartyJackpot-Prefix.pch */ = {isa = PBXFileReference; path = "PartyJackpot-Prefix.pch"; sourceTree = "<group>"; };
-		545349DD1556E26B006DB340 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		545349DC1556E26B006DB340 /* PartyJackpot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PartyJackpot-Prefix.pch"; sourceTree = "<group>"; };
+		545349DD1556E26B006DB340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		545349DE1556E26B006DB340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		545349E11556E26B006DB340 /* PartyJackpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartyJackpot.xcdatamodel; sourceTree = "<group>"; };
+		54534A7A15570879006DB340 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		54534A8815571BE2006DB340 /* Person+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+Helper.h"; path = "../Person+Helper.h"; sourceTree = "<group>"; };
+		54534A8915571BE2006DB340 /* Person+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+Helper.m"; path = "../Person+Helper.m"; sourceTree = "<group>"; };
+		54F893E3156D90DF004EF4E9 /* jackpot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jackpot.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54534A7B15570879006DB340 /* MobileCoreServices.framework in Frameworks */,
 				545349CD1556E26B006DB340 /* UIKit.framework in Frameworks */,
 				545349CF1556E26B006DB340 /* Foundation.framework in Frameworks */,
 				545349D11556E26B006DB340 /* CoreGraphics.framework in Frameworks */,
@@ -47,9 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B776A32156E14E300701B64 /* UIImage-categories */ = {
+			isa = PBXGroup;
+			children = (
+				3B776A33156E14E300701B64 /* UIImage+Alpha.h */,
+				3B776A34156E14E300701B64 /* UIImage+Alpha.m */,
+				3B776A35156E14E300701B64 /* UIImage+Resize.h */,
+				3B776A36156E14E300701B64 /* UIImage+Resize.m */,
+				3B776A37156E14E300701B64 /* UIImage+RoundedCorner.h */,
+				3B776A38156E14E300701B64 /* UIImage+RoundedCorner.m */,
+			);
+			path = "UIImage-categories";
+			sourceTree = "<group>";
+		};
 		545349BD1556E26B006DB340 = {
 			isa = PBXGroup;
 			children = (
+				54534A7A15570879006DB340 /* MobileCoreServices.framework */,
 				545349D41556E26B006DB340 /* PartyJackpot */,
 				545349CB1556E26B006DB340 /* Frameworks */,
 				545349C91556E26B006DB340 /* Products */,
@@ -78,9 +126,23 @@
 		545349D41556E26B006DB340 /* PartyJackpot */ = {
 			isa = PBXGroup;
 			children = (
+				3B776A32156E14E300701B64 /* UIImage-categories */,
+				54F893E0156D90DF004EF4E9 /* resource */,
 				545349DD1556E26B006DB340 /* AppDelegate.h */,
 				545349DE1556E26B006DB340 /* AppDelegate.m */,
+				54155206155854300064971C /* MainViewController.h */,
+				54155207155854300064971C /* MainViewController.m */,
+				5452B4641566A75800C8F370 /* PersonViewController.h */,
+				5452B4651566A75800C8F370 /* PersonViewController.m */,
+				5420B1B3156ED280003B0683 /* WinnerViewController.h */,
+				5420B1B4156ED280003B0683 /* WinnerViewController.m */,
+				54454AA7156920090073F719 /* People.h */,
+				54454AA8156920090073F719 /* People.m */,
+				54534A8815571BE2006DB340 /* Person+Helper.h */,
+				54534A8915571BE2006DB340 /* Person+Helper.m */,
 				545349E01556E26B006DB340 /* PartyJackpot.xcdatamodeld */,
+				5420B1B71570DC91003B0683 /* Person.h */,
+				5420B1B81570DC91003B0683 /* Person.m */,
 				545349D51556E26B006DB340 /* Supporting Files */,
 			);
 			path = PartyJackpot;
@@ -95,6 +157,23 @@
 				545349DC1556E26B006DB340 /* PartyJackpot-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54F893E0156D90DF004EF4E9 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				54F893E1156D90DF004EF4E9 /* images */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		54F893E1156D90DF004EF4E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5420B1BE15715678003B0683 /* mouse.jpg */,
+				54F893E3156D90DF004EF4E9 /* jackpot.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				545349D91556E26B006DB340 /* InfoPlist.strings in Resources */,
+				54F893E5156D90DF004EF4E9 /* jackpot.jpg in Resources */,
+				5420B1BF15715678003B0683 /* mouse.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +242,15 @@
 				545349DB1556E26B006DB340 /* main.m in Sources */,
 				545349DF1556E26B006DB340 /* AppDelegate.m in Sources */,
 				545349E21556E26B006DB340 /* PartyJackpot.xcdatamodeld in Sources */,
+				54534A8A15571BE2006DB340 /* Person+Helper.m in Sources */,
+				54155208155854310064971C /* MainViewController.m in Sources */,
+				5452B4661566A75800C8F370 /* PersonViewController.m in Sources */,
+				54454AA9156920090073F719 /* People.m in Sources */,
+				3B776A39156E14E300701B64 /* UIImage+Alpha.m in Sources */,
+				3B776A3A156E14E300701B64 /* UIImage+Resize.m in Sources */,
+				3B776A3B156E14E300701B64 /* UIImage+RoundedCorner.m in Sources */,
+				5420B1B5156ED280003B0683 /* WinnerViewController.m in Sources */,
+				5420B1B91570DC91003B0683 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +320,7 @@
 				GCC_PREFIX_HEADER = "PartyJackpot/PartyJackpot-Prefix.pch";
 				INFOPLIST_FILE = "PartyJackpot/PartyJackpot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -241,6 +332,7 @@
 				GCC_PREFIX_HEADER = "PartyJackpot/PartyJackpot-Prefix.pch";
 				INFOPLIST_FILE = "PartyJackpot/PartyJackpot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -264,6 +356,7 @@
 				545349E71556E26B006DB340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
